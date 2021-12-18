@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background: rgb(255, 255, 255);
 }
 
 header{
@@ -234,4 +235,8 @@ input[type="checkbox"]:checked + label:after{
 
   input[type="submit"]:hover{
       background: #1f275e
+  }
+
+  @media screen and (max-width:480px){
+      /*　画面サイズが480px以下の場合ここの記述が適用される　*/
   }
